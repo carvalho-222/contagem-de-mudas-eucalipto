@@ -307,10 +307,7 @@ Regra prática:
 
 usar **30%--40% da RAM da máquina**.
 
-| RAM da máquina \| Valor recomendado \|
-
-\|----------------\|------------------\| \| \| 16 GB \| 4--6 GB \| \| 32
-GB \| 10--12 GB \| \| 64 GB \| 20--25 GB \|
+Ex:  Máquina com 16 GB de RAM -> Usar 4GB - 6GB
 
 Para ambientes compartilhados:
 
@@ -469,7 +466,7 @@ Exemplo:
     "quartil_superior_m2": 0.1310,
     "homogeneidade_classificacao": "Alta"
   }
-}
+}```
 
 ------------------------------------------------------------------------
 
