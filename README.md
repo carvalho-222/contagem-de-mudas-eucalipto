@@ -224,10 +224,18 @@ Recomendado:
 
 # Instalação
 
-Arquivo requirements.txt contém todas as dependências necessárias para
-rodar o script. Para instalá-las, rode no terminal:
+Devido às dependências geoespaciais (GDAL, Fiona, GeoPandas), recomenda-se utilizar Conda para garantir compatibilidade entre as bibliotecas.
 
-pip install -r requirements.txt
+### 1. Criar ambiente virtual
+
+Certifique-se que já tenha o conda instalado e depois:
+
+conda create -n eucalipto python=3.11 -y
+conda activate eucalipto
+
+### 2. Instalar dependências
+
+conda install -c conda-forge gdal geopandas shapely pyproj fiona opencv -y
 
 ------------------------------------------------------------------------
 
@@ -318,6 +326,10 @@ usar **20--30% da RAM**.
 # Execução
 
 Após configurar:
+
+Certifique-se que está na pasta do repositório clonado:
+
+    cd contagem-de-mudas-eucalipto
 
     python app/main.py
 
