@@ -466,7 +466,8 @@ Exemplo:
     "quartil_superior_m2": 0.1310,
     "homogeneidade_classificacao": "Alta"
   }
-}```
+}
+```
 
 ------------------------------------------------------------------------
 
